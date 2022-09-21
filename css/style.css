@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Koulen', cursive;
-    color: #fff;
+    color: #ffff;
 }
 
 body{
@@ -61,7 +61,7 @@ button:focus{
     background-color: #363636;
     text-align: right;
     justify-content: space-between;
-    box-shadow: 0px 0px 0px 10px #00000040;
+    box-shadow: 0px 0px 0px 10px #00000033;
     word-break: break-all;
 }
 
@@ -73,6 +73,10 @@ button:focus{
     width: 100%;
 }
 
+#valor-anterior{
+    font-size: 2em;
+}
+
 footer{
     margin: 1em 0;
     font-size: 20px;
@@ -81,3 +85,8 @@ footer{
     padding-top: 5px;
     width: 100%;
 }
+
+#valor-actual{
+    font-size: 1.5em;
+}
+
